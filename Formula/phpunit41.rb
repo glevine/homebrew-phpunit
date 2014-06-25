@@ -11,5 +11,6 @@ class Phpunit41 < Formula
     sh.write("#!/usr/bin/env bash\n\n/usr/bin/env php -d allow_url_fopen=On -d detect_unicode=Off #{libexec}/phpunit-#{version}.phar $*")
     chmod 0755, sh
     bin.install_symlink sh
+    bin.install_symlink sh => "phpunit"
   end
 end
