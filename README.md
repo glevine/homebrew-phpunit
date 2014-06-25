@@ -43,8 +43,6 @@ cd path/to/your/app/tests
 phpunit41
 ```
 
-The latest and greatest stable version of PHPUnit is also aliased to `phpunit`. So, you can run PHPUnit x.y by either `phpunitxy` or `phpunit`.
-
 ### This is what you wanted?
 
 Honestly, why aren't you using Composer? Just do whatever you need to do to adopt it already! Seriously, [go get it](https://getcomposer.org/)!
